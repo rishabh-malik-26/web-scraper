@@ -5,7 +5,7 @@ import time
 
 
 
-df = pd.read_csv(r"C:\Users\Rishabh\Downloads\ML_Datasets\Phishing_Urls\url_dataset.csv")
+df = pd.read_csv("url_dataset.csv")
 
 all_urls =  list(df['url'])
 
